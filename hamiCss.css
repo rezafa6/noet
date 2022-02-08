@@ -1,0 +1,373 @@
+
+
+
+
+
+html {
+
+	scroll-behavior: smooth;
+}
+  .nav-header {
+      width: 100% !important;
+}
+.putCenter {
+	text-align: center;
+}
+.fh5co-nav-toggle { background-color: white !important; }
+ .logoType {
+	cursor: pointer;
+	font-family: b yekan !important;
+	font-size: 25px !important ;
+    margin-left: 50px;
+    margin-top: 20px !important;
+	font-weight: bold;
+	color: #eee;
+} 
+
+.signin { color: white; }
+.headerColor {
+	background:  rgba(0,0,0,0.0)!important ;
+}
+#fh5co-header-section {  background-color: rgba(0,0,0,0.0) !important; }
+.btn {
+	font-family: b yekan !important; border-radius: 2px !important;
+}
+.dark {
+    transition: 0.5s;
+    background-color:rgba(1,1,1, 1) !important;
+    
+}
+.light {
+    transition: 0.5s !important ;
+}
+.yourIntro {
+    opacity: 0;
+    margin-top: 140px;
+}
+.myIntro { margin-top: 10px; transition: 1s; opacity: 1; }
+
+.abUS { font-weight: bold; color: #ff4d4d; margin-right: -250px; }
+.abUS1 { font-weight: bold; color: #ff4d4d; transition: 0.7s; margin-right: 0px;  }
+
+
+
+.btStyle { opacity: 1;
+   background-size: 100%; margin-top: 30px;
+    background-image: url(./images/bg.jpg); background-attachment: fixed; }
+
+
+.bBorder { border-radius: 5px !important; height: 50px !important ; margin-top: 100px; }  
+.moreBT {  font-family: b yekan !important; font-weight: 200 !important; }
+
+.card-header {
+	color:#333 ;
+	background:#eee;
+	text-align: center;
+	font-family: b yekan !important;
+}
+.card-content {
+color: #333 !important;
+}
+.cardBar {
+	box-shadow: 2px 2px 0px #bbb !important ;  
+	opacity: 1 !important;
+    background-color:#fff !important ;
+	transition: 0.1s !important;
+}
+.cardBar:hover {
+	box-shadow:0px 0px 0px #fff !important ;  
+transform: scale(1.05)
+}
+
+.extra {
+    background-color: #333 !important ;
+}
+h2 {
+	font-family: b yekan !important;
+}
+
+            /* cards */
+
+.card:hover {
+	transform: scale(1.02); }
+
+.card:hover .darkCard { opacity: 1; height: 100%; }
+
+.darkCard { position: absolute !important; top: 0%; left: 50%; transform: translate(-50% , -0%); opacity: 0; transition: 0.6s;
+   width: 100%; height: 100px; background-color: rgba(61, 184, 206, 0.8) !important; }
+.cardBt { position: absolute; left: 50% ; top: 50%; transform:translate(-50%,-50%)}
+   /* help IMG */
+.supBTN { font-size: 20px; opacity:1; border-radius: 10px !important; font-size: 15px !important;position: absolute;top: 80%;left: 50%;
+        transform: translate(-50%, -80%);-ms-transform: translate(-50%, -80%);background-color: rgba(255, 77, 77, 0.9);color: white;
+        padding: 18px 34px;
+}
+
+a:hover {
+	color: #444 !important; }
+.ques {  cursor: pointer; font-size: 28pt !important;
+	padding: 15px;opacity: 0.8;width: 100%;position: absolute;top: 20%;left:50%;
+		transform: translate(-50%, -20%);-ms-transform: translate(-50%, -80%);color: #111;
+}
+.ques2 {  font-family: b yekan !important; cursor: pointer; font-size: 24pt !important;
+    padding: 15px;opacity: 0.8;width: 100%;position: absolute;top: 40%;left:50%;
+    transform: translate(-50%, -40%);-ms-transform: translate(-50%, -80%);color: #111;
+}
+.ques:hover , .ques2:hover {
+	opacity: 0.6;
+}
+.helpBG {
+	 background-image:url(./images/help.jpg) !important;background-size: 100% 800px !important;
+	background-repeat: no-repeat !important;background-attachment: fixed !important; 
+}
+
+          /* carsoual Slider */
+
+  .hamiBG { 
+    background-image: url(./images/hamiSl.jpg) !important;background-size: 100% 800px !important;
+	background-repeat: no-repeat !important;background-attachment: fixed !important; 
+ }
+.carouselP { font-family: b yekan !important; color : #000 !important;  }
+#s {
+border : 0.5px solid rgb(139, 136, 136) !important;
+}
+
+.segment {
+	background-color: #eee !important;
+}
+
+        /* counters */
+
+.cBG{
+	background-image: linear-gradient(#673ab7 ,#512da8 )!important;
+	background-attachment: fixed !important;
+	background-size: 100%;
+}
+.cPara {
+color: #fff !important;
+}
+.head {
+	font-family: b yekan !important;
+}
+
+        /* jobs */
+
+.board { background-color: #eee !important;  }
+.board-inner {background-color : #eee!important; }
+
+h3 {
+    color: rgba(31,181,172,.9);
+  }
+  .text{
+      color: rgba(31,181,172,.9);
+      text-align: center;
+  }
+  
+  .folded-corner:hover .text{
+      visibility: visible;
+      color: #111;;
+  }
+  .Services-tab{
+      margin-top:20px;
+  }
+  
+ 
+  .folded-corner{
+      box-shadow: 2px 2px 2px #333;
+    border-radius: 8px;
+    padding: 25px 25px;
+    position: relative;
+    font-size: 90%;
+    text-decoration: none;
+    color: #999; 
+    background: transparent;
+    transition: all ease .5s;
+    border: 1px solid #008080;
+  }
+  .folded-corner:hover{
+      background-color:	 rgba(220,220,220)
+  }
+  
+  
+  
+  .folded-corner:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-style: solid;
+    border-width: 0 0px 0px 0;
+    border-color: #ddd #222;
+    transition: all ease .3s;
+  }
+  
+  
+  .folded-corner:hover:before {
+    border-width: 0 50px 50px 0;
+    border-color: #eee #000;
+    
+  }
+  
+  .service_tab_1{
+      background-color: #eee;
+  }
+  .service_tab_1:hover .fa-icon-image{
+      color: #000;
+      transform: rotate(360deg) scale(1.5);
+  }
+  
+  
+  .fa-icon-image{
+      color:#333;
+      display: inline-block;
+      font-style: normal;
+      font-variant: normal;
+      font-weight: normal;
+      line-height: 1;
+      font-size-adjust: none;
+      font-stretch: normal;
+      -moz-font-feature-settings: normal;
+      -moz-font-language-override: normal;
+      text-rendering: auto;
+      transition: all .65s linear 0s;
+      text-align: center;transition: all 0.9s cubic-bezier(.99,.82,.11,1.41);
+  }
+  .reHeader { font-family: b yekan !important;  }
+  h1 {
+      font-family: b yekan !important;
+  }
+.fp {
+    color: white !important ; 
+}
+.btn-large { font-family: b yekan !important; font-size: 18px !important ; }
+
+
+
+    /* Footer */
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+section {
+    padding: 60px 0;
+}
+
+section .section-title {
+    text-align: center;
+    margin-bottom: 50px;
+}
+#footer {
+    margin-bottom: 0px !important ; 
+    height: auto !important;
+    background: #222 !important;
+}
+#footer h5{
+	padding-left: 10px;
+    border-left: 3px solid #eeeeee;
+    padding-bottom: 6px;
+    margin-bottom: 20px;
+    color:#ffffff;
+}
+#footer a {
+    color: #ffffff;
+    text-decoration: none !important;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+}
+#footer ul.social li{
+	padding: 3px 0;
+}
+#footer ul.social li a i {
+    margin-right: 5px;
+	font-size:25px;
+	-webkit-transition: .5s all ease;
+	-moz-transition: .5s all ease;
+	transition: .5s all ease;
+}
+#footer ul.social li:hover a i {
+	font-size:30px;
+    margin-top:-10px;
+    color : #bbb !important;
+}
+#footer ul.social li a,
+#footer ul.quick-links li a{
+	color:#fff;
+}
+
+
+
+#footer ul.quick-links li a:hover{
+	color:#bbb !important;
+}
+
+#footer ul.social li a:hover{
+	color:#eee;
+}
+#footer ul.quick-links li{
+	padding: 3px 0;
+	-webkit-transition: .5s all ease;
+	-moz-transition: .5s all ease;
+	transition: .5s all ease;
+}
+#footer ul.quick-links li:hover{
+	padding: 3px 0;
+	margin-left:5px;
+	font-weight:700;
+}
+#footer ul.quick-links li a i{
+	margin-right: 5px;
+}
+#footer ul.quick-links li:hover a i {
+    color: #bbb !important;
+    font-weight: 700;
+}
+
+
+
+
+
+
+
+
+@media (max-width:767px){
+	#footer h5 {
+    padding-left: 0;
+    border-left: transparent;
+    padding-bottom: 0px;
+    margin-bottom: 10px;
+}
+}
+
+
+  .item h4 {
+      
+    font-size: 19px;
+    line-height: 1.375em;
+    font-weight: 400;
+    font-style: normal;
+    margin: 70px 0;
+  }
+  
+  .item span {
+    font-style: normal;
+  }
+
+
+
+
+
+  
+  .panel-heading {
+    padding: 5px 15px;
+}
+
+.panel-footer {
+	padding: 1px 15px;
+	color: #A0A0A0;
+}
+
+.profile-img {
+	width: 96px;
+	height: 96px;
+	margin: 0 auto 10px;
+	display: block;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	border-radius: 50%;
+}
